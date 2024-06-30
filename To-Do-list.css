@@ -1,0 +1,111 @@
+body {
+    background-color: bisque;
+
+  }
+  
+  * {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    color: #31525b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3dee5;
+    border-radius: 10px;
+    width: 500px;
+    height: 60px;
+    position: static;
+  }
+  #statistics {
+    background-color: #b3dee5;
+    font-size: 23px;
+    width: 60px;
+   height: 30px;
+   border: #fae6b1 solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: 600;
+    margin-left: 30px;
+  }
+  .button {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+  }
+  
+  .addtask {
+    background-color: #31525b;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #tasks {
+    color: #31525b;
+    font-weight: 550;
+  }
+  .input {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    border-style: none;
+    width: 300px;
+    padding: 7px 5px 5px 8px;
+    margin: auto;
+  }
+  
+  .addtask:hover {
+    background-color: #b3dee5;
+    border-color: #e69300;
+  }
+  
+  .card {
+    background-color: #ffa101;
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; 
+  }
+  
+  .card:hover {
+    background-color: #b3dee5;
+  }
+
+  #delete {
+    color: #31525b;
+    border-color: #fae6b1;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #delete:hover {
+    color: red;
+  }
+  #edit {
+    border-radius: 5px;
+    border-style: white solid 1px;
+    cursor: pointer;
+  }
+  
+  #input::placeholder {
+    font-size: 15px;
+  }
+  
